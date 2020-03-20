@@ -3,9 +3,9 @@
 ### Overview (what the project is, what we are trying to do, how to run it)
 
 ### Technologies Used 
-Eclipse
-Java
-Terminal Commands
-GitHub/Git 
+- Eclipse
+- Java
+- Terminal Commands
+- GitHub/Git 
 
 ### Lessons Learned
