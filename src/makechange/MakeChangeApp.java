@@ -88,11 +88,20 @@ public class MakeChangeApp {
 			}
 
 			if (changeBack >= .009) {
-				while (changeBack >= .009) {
-					penny = changeBack * 100;
-					int pennyTotal = (int) Math.round(penny);
-					System.out.println(+ pennyTotal + " pennies.");
-					break;
+				if (changeBack >= .01) {
+					while (changeBack >= .009) {
+						penny = changeBack * 100;
+						int pennyTotal = (int) Math.round(penny);
+						System.out.println(+pennyTotal + " pennies.");
+						break;
+					}
+				} else {
+					while (changeBack <= .01) {
+						penny = changeBack * 100;
+						int pennyTotal = (int) Math.round(penny);
+						System.out.println(+pennyTotal + " penny.");
+						break;
+					}
 				}
 				System.out.println("Have a good day!");
 			}
